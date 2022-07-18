@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Oswald&family=Permanent+Marker&family=Poppins&family=Roboto+Mono&family=Roboto:wght@100;500&family=Satisfy&display=swap');
+
+/* heading part */
+header {
+    margin: 65px 120px 0px 120px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 22px;
+}
+
+.heading-left {
+    display: flex;
+    align-items: center;
+}
+
+.heading-left a {
+    text-decoration: none;
+    margin-left: 34px;
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cart {
+    align-items: center;
+}
+
+.cart i {
+    margin-top: 10px;
+    height: 34px;
+    width: 34px;
+    font-size: 24px;
+}
+
+/* section one */
+.sec-one {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 82px;
+}
+
+.left {
+    width: 582px;
+    height: 270px;
+    margin-right: 133px;
+}
+
+.left h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.left h4 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.left button {
+    width: 116px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+}
+
+/* media */
+@media screen and (max-width: 600px) {
+    .sec-one {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+        row-gap: 50px;
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+
+    .left {
+        width: 382px;
+        height: 270px;
+        /* margin-right: 133px; */
+    }
+
+}
+
+.right {
+    height: 475px;
+    width: 475px;
+}
+
+.right img {
+    width: 440px;
+    height: 414px;
+    margin: 30px 33px 31px 2px;
+}
+
+/* section two */
+.sec-two {
+    margin: 0px 125px;
+}
+
+.inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 36px 62px;
+    align-items: center;
+    border-top: 1px solid wheat;
+    border-bottom: 1px solid wheat;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.inner img {
+    margin-right: 34px;
+    width: 90px;
+    height: 28px;
+}
